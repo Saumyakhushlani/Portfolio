@@ -14,7 +14,7 @@ const Intro = () => {
                 <ShinyText text="frontend" disabled={false} speed={3} className='custom-class' />
                 <span></span> development.</div>
 
-                <Magnet padding={200} disabled={false} magnetStrength={2}>
+                <Magnet padding={200} disabled={false} magnetStrength={3}>
                     <button className='bg-white text-black font-medium text-lg px-5 py-2 rounded-3xl mt-2 hover:cursor-pointer'>My Resume</button>
                 </Magnet>
             </div>

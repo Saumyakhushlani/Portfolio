@@ -2,6 +2,7 @@
 import React from 'react'
 import Intro from '../My Components/Intro/Intro'
 import ClickSpark from '../My Components/ClickSpark/ClickSpark'
+import What from '../My Components/What/What'
 import Footer from '../My Components/Footer/Footer'
 import Rtext from '../My Components/Rtext/Rtext'
 import Contact from '../My Components/Contact/Contact'
@@ -23,6 +24,7 @@ const page = () => {
     <div className='bg-[#101010] h-max py-7'>
       <Intro />
       <Rtext />
+      <What/>
       <Milestone/>
       <Contact />
       <Footer />
