@@ -1,5 +1,6 @@
 import React from 'react'
 import ShinyText from '../Shiny/ShinyText'
+import Magnet from '../Magnet/Magnet'
 
 const Intro = () => {
     return (
@@ -9,10 +10,15 @@ const Intro = () => {
                 <div className='text-7xl'>Software Developer</div>
             </div>
             <div className="md:w-[35vw] text-2xl text-[#f3f3f398] font-medium">
-                Transforming ideas into interactive and seamless digital experiences with cutting-edge <span></span>
+                <div>Transforming ideas into interactive and seamless digital experiences with cutting-edge <span></span>
                 <ShinyText text="frontend" disabled={false} speed={3} className='custom-class' />
                 <span></span> development.</div>
+
+                <Magnet padding={200} disabled={false} magnetStrength={2}>
+                    <button className='bg-white text-black font-medium text-lg px-5 py-2 rounded-3xl mt-2 hover:cursor-pointer'>My Resume</button>
+                </Magnet>
             </div>
+        </div>
     )
 }
 
