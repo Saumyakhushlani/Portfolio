@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className="text-center bg-[rgba(109,255,253,0.1)] w-max px-3 py-1 mb-4 rounded-3xl ">
                     <SplitText
                         text="Available for work"
-                        className="text-m font-semibold text-white"
+                        className="text-m font-medium text-white"
                         delay={20}
                         animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                         animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}

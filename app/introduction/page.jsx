@@ -7,6 +7,7 @@ import Footer from '../My Components/Footer/Footer'
 import Rtext from '../My Components/Rtext/Rtext'
 import Contact from '../My Components/Contact/Contact'
 import Milestone from '../My Components/Milestone/Milestone'
+import Skills from '../My Components/Skills/Skills'
 
 const page = () => {
   return (
@@ -25,6 +26,7 @@ const page = () => {
       <Intro />
       <Rtext />
       <What/>
+      <Skills/>
       <Milestone/>
       <Contact />
       <Footer />
