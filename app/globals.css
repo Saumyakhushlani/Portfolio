@@ -8,7 +8,9 @@
   background-color:cyan ;
   color: black ;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   --background: #ffffff;

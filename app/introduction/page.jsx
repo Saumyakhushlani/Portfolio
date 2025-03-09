@@ -10,6 +10,8 @@ import Milestone from '../My Components/Milestone/Milestone'
 import Skills from '../My Components/Skills/Skills'
 import Slider from '../My Components/Slider/Slider'
 import Projects from '../My Components/Projects/Projects'
+import Navbar from '../My Components/Navbar/Navbar'
+
 
 const page = () => {
   
@@ -26,14 +28,15 @@ const page = () => {
     duration={500}
   >
     <div className='bg-[#101010] h-max py-7'>
-      <Intro />
+      <Navbar/>
+      <div id="home"><Intro /></div>
       <Rtext />
       <What/>
-      <Projects/>
+      <div id="project"><Projects/></div>
       <Skills/>
       <Slider/>
       <Milestone/>
-      <Contact />
+      <div id='contact'><Contact /></div>
       <Footer />
 
     </div>
