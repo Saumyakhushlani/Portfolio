@@ -5,6 +5,7 @@ import {IconBrandLinkedin} from '@tabler/icons-react';
 import {IconBrandGithub} from '@tabler/icons-react';
 import {IconMail} from '@tabler/icons-react';
 import {IconBrandInstagram} from '@tabler/icons-react';
+import Link from "next/link";
 
 
 const Footer = () => {
@@ -26,10 +27,10 @@ const Footer = () => {
                 onLetterAnimationComplete={handleAnimationComplete}
             />
             <div className="flex flex-row justify-centre items-center gap-1 text-[#a9a9bd]">
-                <IconBrandLinkedin size={30}/>
-                <IconBrandGithub size={30}/>
-                <IconMail size={30}/>
-                <IconBrandInstagram size={30}/>
+                <Link href="https://www.linkedin.com/in/saumya-khushlani-333955312/"><IconBrandLinkedin size={30}/></Link>
+                <Link href="https://github.com/Saumyakhushlani"><IconBrandGithub size={30}/></Link>
+                <Link href="mailto:saumyakhushlani9@gmail.com"><IconMail size={30}/></Link>
+                <Link href="https://www.instagram.com/saumya_khushlani/?__pwa=1"><IconBrandInstagram size={30}/></Link>
             </div>
         </div>
     );
