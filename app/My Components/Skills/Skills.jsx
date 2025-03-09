@@ -7,12 +7,12 @@ const Skills = () => {
     return (
         <>
         <div className="text-center text-5xl font-semibold">Skills</div>
-            <div className='flex md:flex-row flex-col py-8'>
+            <div className='flex md:flex-row flex-col py-8 w-max'>
                 <div style={{ height: "300px", position: "relative" }}>
                     <Folder
                         size={2}
                         color="#00d8ff"
-                        className="relative left-60 top-25"
+                        className="relative md:left-60 md:top-25 left-[40vw] top-[15vh]"
                         items={[
                             <img src="/c++.png" alt="Image 1" className="w-[60%] h-full object-contain object-left rounded-lg" />,
                             <img src="/react.jpg" alt="Image 2" className="w-[110%] h-full object-contain object-right rounded-lg" />,
@@ -20,7 +20,7 @@ const Skills = () => {
                         ]}
                     />
                 </div>
-                <div className='md:w-[49vw] relative left-[32vw] top-5'>
+                <div className='md:w-[49vw] relative md:left-[32vw] md:top-5 hidden md:block'>
 
                     <FallingText
                         text={`Experienced in Web development, Optimizing performance, Enhancing accessibility, and responsive user interfaces for seamless user experiences.`}

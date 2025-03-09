@@ -4,12 +4,12 @@ import CountUp from '../CountUp/CountUp'
 
 const Milestone = () => {
     return (
-        <div className='flex flex-col md:flex-row justify-evenly items-center py-[5vh]'>
+        <div className='flex flex-col md:flex-row justify-evenly items-center py-[5vh] md:gap-0 gap-2'>
             <CircularText
                 text=" LETS TALK * LETS TALK * LETS TALK *"
                 onHover="speedUp"
                 spinDuration={20}
-                className="font-normal m-0"
+                className="font-normal text-s  m-0"
             />
             <div className='text-center'>
                 <CountUp

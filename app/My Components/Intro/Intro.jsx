@@ -4,10 +4,11 @@ import Magnet from '../Magnet/Magnet'
 
 const Intro = () => {
     return (
-        <div className='py-10 flex md:flex-row gap-6 justify-center items-center'>
+        <div className='py-10 flex flex-col md:flex-row md:px-0 px-8 gap-6 justify-center items-center'>
             <div className="md:w-[35vw] font-medium">
-                <div className='text-[#f3f3f398] text-xl mb-2'>Hi, I'm Saumya Khushlani</div>
-                <div className='text-7xl'>Software Developer</div>
+                <div className='text-[#f3f3f398] text-xl mb-2'>Hi, I'm a Software Devloper</div>
+                {/* <div className='text-7xl'>Saumya Khushlani</div> */}
+                <ShinyText text="Saumya Khushlani" disabled={false} speed={3} className='text-7xl' />
             </div>
             <div className="md:w-[35vw] text-2xl text-[#f3f3f398] font-medium">
                 <div>Transforming ideas into interactive and seamless digital experiences with cutting-edge <span></span>
@@ -15,7 +16,7 @@ const Intro = () => {
                 <span></span> development.</div>
 
                 <Magnet padding={200} disabled={false} magnetStrength={3}>
-                    <button className='bg-white text-black font-medium text-lg px-5 py-2 rounded-3xl mt-2 hover:cursor-pointer'>My Resume</button>
+                    <button className='bg-white text-black font-medium text-lg px-5 py-2 rounded-3xl mt-4 hover:cursor-pointer'>My Resume</button>
                 </Magnet>
             </div>
         </div>

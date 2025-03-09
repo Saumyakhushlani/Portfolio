@@ -12,6 +12,7 @@ import Slider from '../My Components/Slider/Slider'
 import Projects from '../My Components/Projects/Projects'
 
 const page = () => {
+  
   return (
 
 
@@ -27,8 +28,8 @@ const page = () => {
     <div className='bg-[#101010] h-max py-7'>
       <Intro />
       <Rtext />
-      <Projects/>
       <What/>
+      <Projects/>
       <Skills/>
       <Slider/>
       <Milestone/>

@@ -4,7 +4,7 @@ import RotatingText from '../RotatingText/RotatingText'
 
 const Rtext = () => {
   return (
-    <div className='flex text-4xl font-semibold items-center justify-center gap-2 md:py-[8vh]'>
+    <div className='flex text-4xl font-semibold items-center justify-center gap-2 md:py-[8vh] md:flex '>
         Creative
       <RotatingText
         texts={['Thinker!', 'Coder!', 'Student!', 'Designer!','Mind!','Innovator!','Techie!','Developer!']}
