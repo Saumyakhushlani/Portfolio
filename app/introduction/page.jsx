@@ -9,6 +9,7 @@ import Contact from '../My Components/Contact/Contact'
 import Milestone from '../My Components/Milestone/Milestone'
 import Skills from '../My Components/Skills/Skills'
 import Slider from '../My Components/Slider/Slider'
+import Projects from '../My Components/Projects/Projects'
 
 const page = () => {
   return (
@@ -26,6 +27,7 @@ const page = () => {
     <div className='bg-[#101010] h-max py-7'>
       <Intro />
       <Rtext />
+      <Projects/>
       <What/>
       <Skills/>
       <Slider/>

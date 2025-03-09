@@ -3,17 +3,15 @@ import './Slider.css'
 
 const Slider = () => {
     const techStack = [
-        { name: "Next.JS", src: "/svg/astro.svg" },
-        { name: "React", src: "/svg/react.svg" },
-        { name: "TypeScript", src: "/svg/typeScript.svg" },
-        { name: "TailwindCSS", src: "/svg/tailwindcss.svg" },
-        { name: "HTML5", src: "/svg/HTML5.svg" },
-        { name: "CSS3", src: "/svg/CSS3.svg" },
-        { name: "JavaScript", src: "/svg/javaScript.svg" },
-        { name: "Git", src: "/svg/git.svg" },
-        { name: "SQL", src: "/svg/mysql.svg" },
-        { name: "C", src: "/svg/mysql.svg" },
-        { name: "C++", src: "/svg/mysql.svg" },
+        { name: "Next.JS", src: "/nextjs.svg" },
+        { name: "React", src: "/react.png" },
+        { name: "TailwindCSS", src: "/tailwind-css.svg" },
+        { name: "HTML", src: "/html.webp" },
+        { name: "CSS", src: "/css2.png" },
+        { name: "JavaScript", src: "/js.png" },
+        { name: "Git", src: "/git.png" },
+        { name: "PostgreSQL", src: "/post.png" },
+        { name: "C++", src: "/c++.png" },
         
       ];
   return (
@@ -25,16 +23,16 @@ const Slider = () => {
       {/* Scrolling Animation */}
       <div className="flex scroll-container gap-12 md:gap-20 w-max">
         {[...techStack, ...techStack].map((tech, index) => (
-          <div key={index} className="flex items-center gap-2 group transition-all duration-300">
+          <div key={index} className="flex items-center gap-2 group transition-all duration-300 py-2">
             <img
               src={tech.src}
               alt={tech.name}
-              className="h-7 w-auto object-contain transition-transform group-hover:scale-110 opacity-60"
+              className="h-9 w-auto object-contain transition-transform group-hover:scale-110 opacity-60"
               width={30}
               height={30}
               loading="lazy"
             />
-            <span className="text-lg font-medium text-[var(--white-icon)]">{tech.name}</span>
+            <span className="text-xl font-medium text-[var(--white-icon)]">{tech.name}</span>
           </div>
         ))}
       </div>
