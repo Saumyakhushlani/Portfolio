@@ -2,6 +2,7 @@ import React from 'react'
 import Folder from '../Folder/Folder'
 import FallingText from '../FallingText/FallingText'
 
+
 const Skills = () => {
     return (
         <>

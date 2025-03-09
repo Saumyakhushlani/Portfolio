@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className="mb-3 ">
                     <SplitText
                         text="Let's create your"
-                        className="text-5xl font-semibold text-white"
+                        className="text-4xl font-semibold text-white"
                         delay={40}
                         animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                         animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
@@ -38,7 +38,7 @@ const Contact = () => {
                 <div className="mb-[10vh]">
                     <SplitText
                         text="next big idea ."
-                        className="text-5xl font-semibold text-white"
+                        className="text-4xl font-semibold text-white"
                         delay={60}
                         animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                         animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}

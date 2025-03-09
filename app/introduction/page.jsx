@@ -8,6 +8,7 @@ import Rtext from '../My Components/Rtext/Rtext'
 import Contact from '../My Components/Contact/Contact'
 import Milestone from '../My Components/Milestone/Milestone'
 import Skills from '../My Components/Skills/Skills'
+import Slider from '../My Components/Slider/Slider'
 
 const page = () => {
   return (
@@ -27,6 +28,7 @@ const page = () => {
       <Rtext />
       <What/>
       <Skills/>
+      <Slider/>
       <Milestone/>
       <Contact />
       <Footer />
