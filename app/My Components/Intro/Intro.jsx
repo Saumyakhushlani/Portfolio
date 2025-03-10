@@ -1,6 +1,7 @@
 import React from 'react'
 import ShinyText from '../Shiny/ShinyText'
 import Magnet from '../Magnet/Magnet'
+import Link from 'next/link'
 
 const Intro = () => {
     return (
@@ -16,7 +17,7 @@ const Intro = () => {
                 <span></span> development.</div>
 
                 <Magnet padding={200} disabled={false} magnetStrength={3}>
-                    <button className='bg-white text-black font-medium text-lg px-5 py-2 rounded-3xl mt-4 hover:cursor-pointer'>My Resume</button>
+                    <Link href='/resume'><button className='bg-white text-black font-medium text-lg px-5 py-2 rounded-3xl mt-4 hover:cursor-pointer'>My Resume</button></Link>
                 </Magnet>
             </div>
         </div>
