@@ -1,6 +1,6 @@
 import React from 'react'
 import SpotlightCard from '../SpotlightCard/SpotlightCard';
-import { FaCode, FaPaintBrush, FaDatabase,FaServer } from "react-icons/fa";
+import { FaCode, FaPaintBrush, FaDatabase,FaServer,FaGithub,FaLightbulb  } from "react-icons/fa";
 import '../About/About.css'
 
 
@@ -29,8 +29,21 @@ const What_doing = () => {
             title: "Backend Development", 
             desc: "Building robust and scalable server-side applications using technologies like Node.js, Express, and PostgreSQL to handle API requests and database management efficiently.", 
             icn: <FaServer /> 
+        },
+        { 
+            sno: 5, 
+            title: "Problem Solving", 
+            desc: "Enhancing logical thinking and algorithmic skills by solving complex coding challenges on platforms like LeetCode, Codeforces, and CodeChef.", 
+            icn: <FaLightbulb /> 
+        },
+        { 
+            sno: 6, 
+            title: "Open Source Contribution", 
+            desc: "Actively contributing to open-source projects,  and enhancing my skills through real-world code contributions.", 
+            icn: <FaGithub /> 
         }
     ];
+    
     return (
         <div className="p-4">
             <div className="text-5xl font-medium text-white my-8 about">What I do</div>

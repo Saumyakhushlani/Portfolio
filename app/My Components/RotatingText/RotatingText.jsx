@@ -157,6 +157,8 @@ const RotatingText = forwardRef((props, ref) => {
     return () => clearInterval(intervalId);
   }, [next, rotationInterval, auto]);
 
+  
+
   return (
     <motion.span
       className={cn(
