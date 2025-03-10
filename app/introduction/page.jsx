@@ -14,12 +14,7 @@ import Navbar from '../My Components/Navbar/Navbar'
 
 
 const page = () => {
-  
   return (
-
-
-    
-
   <ClickSpark
     sparkColor='aqua'
     sparkSize={10}
@@ -40,7 +35,6 @@ const page = () => {
       <Footer />
 
     </div>
-
   </ClickSpark>
 
     
