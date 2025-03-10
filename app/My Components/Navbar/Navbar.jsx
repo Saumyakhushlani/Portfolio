@@ -12,7 +12,7 @@ const Navbar = () => {
         <div>Projects</div>
       </Link>
       <Link href="/resume" className="hover:cursor-pointer">
-        <div>Contact</div>
+        <div>About</div>
       </Link>
       
     </div>
