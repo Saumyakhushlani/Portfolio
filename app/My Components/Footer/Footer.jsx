@@ -14,7 +14,7 @@ const Footer = () => {
     };
 
     return (
-        <div className="flex md:flex-row flex-col gap-2 md:gap-0 justify-between items-center h-max py-2 md:mx-[11vw] py-3">
+        <div className="flex md:flex-row flex-col gap-2 md:gap-0 justify-between items-center h-max  md:mx-[11vw] py-3">
             <SplitText
                 text="© 2025 Saumya Khushlani. All rights reserved."
                 className="md:text-[1.2rem] text-lg font-normal text-[#a9a9bd]"
@@ -22,7 +22,7 @@ const Footer = () => {
                 animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                 animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
                 easing="easeOutCubic"
-                threshold={0.2}
+                threshold={0.1}
                 rootMargin="-50px"
                 onLetterAnimationComplete={handleAnimationComplete}
             />

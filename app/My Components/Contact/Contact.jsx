@@ -1,6 +1,7 @@
 "use client"
 import React from 'react'
 import SplitText from '../SplitText/SplitText'
+import Link from 'next/link'
 
 const Contact = () => {
     const handleAnimationComplete = () => {
@@ -48,19 +49,21 @@ const Contact = () => {
                         onLetterAnimationComplete={handleAnimationComplete}
                     />
                 </div>
-                <div className="">
-                <SplitText
-                        text="Contact Me"
-                        className="text-xl font-normal bg-white px-4 py-2 w-max rounded-3xl hover:cursor-pointer text-black"
-                        delay={70}
-                        animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
-                        animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
-                        easing="easeOutCubic"
-                        threshold={0.2}
-                        rootMargin="-50px"
-                        onLetterAnimationComplete={handleAnimationComplete}
-                    />
-                </div>
+                <Link href="/resume">
+                    <div className="">
+                        <SplitText
+                            text="Contact Me"
+                            className="text-xl font-normal bg-white px-4 py-2 w-max rounded-3xl hover:cursor-pointer text-black"
+                            delay={70}
+                            animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
+                            animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}
+                            easing="easeOutCubic"
+                            threshold={0.2}
+                            rootMargin="-50px"
+                            onLetterAnimationComplete={handleAnimationComplete}
+                        />
+                    </div>
+                </Link>
             </div>
         </div>
     )
