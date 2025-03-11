@@ -15,7 +15,7 @@ const What = () => {
                <div className=' px-4 py-2 md:w-[30vw] border rounded-lg border-[#e5e7eb] flex gap-2 items-center text-xl font-medium my-4'><IconUxCircle color="aqua" size={32}/> UI/UX Design & Prototyping</div>
             </div>
 
-            <div className='rounded-2xl md:w-[30vw] '>
+            <div className='rounded-2xl md:w-[30vw] w-[80vw] '>
                 <LetterGlitch
                     glitchSpeed={50}
                     centerVignette={false}
