@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex md:flex-row flex-col gap-2 md:gap-0 justify-between items-center h-max  md:mx-[11vw] py-3">
             <SplitText
                 text="© 2025 Saumya Khushlani. All rights reserved."
-                className="md:text-[1.2rem] text-lg font-normal text-[#a9a9bd]"
+                className="md:text-[1.2rem] text-m font-normal text-[#a9a9bd]"
                 delay={20}
                 animationFrom={{ opacity: 0, transform: 'translate3d(0,50px,0)' }}
                 animationTo={{ opacity: 1, transform: 'translate3d(0,0,0)' }}

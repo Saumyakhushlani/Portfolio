@@ -26,7 +26,7 @@ const page = () => {
     <div className='bg-[#101010] h-max py-7 overflow-x-hidden'>
       <Navbar/>
       <div id="home"><Intro /></div>
-      <Rtext />
+      {/* <Rtext /> */}
       <What/>
       <div id="project"><Projects/></div>
       <Skills/>
