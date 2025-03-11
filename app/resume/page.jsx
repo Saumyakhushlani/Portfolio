@@ -18,7 +18,7 @@ const page = () => {
       duration={500}
     >
       <FadeContent blur={true} duration={500} easing="ease-out" initialOpacity={0}>
-        <div className='bg-[#101010] md:px-[10vw] px-[2vw] pb-8'>
+        <div className='bg-[#101010] md:px-[10vw] px-[2vw] pb-8 py-4'>
           <Navbar/>
           <About />
 

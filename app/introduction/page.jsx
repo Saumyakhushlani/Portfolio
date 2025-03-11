@@ -23,7 +23,7 @@ const page = () => {
     sparkCount={8}
     duration={500}
   >
-    <div className='bg-[#101010] h-max py-7'>
+    <div className='bg-[#101010] h-max py-7 overflow-x-hidden'>
       <Navbar/>
       <div id="home"><Intro /></div>
       <Rtext />
