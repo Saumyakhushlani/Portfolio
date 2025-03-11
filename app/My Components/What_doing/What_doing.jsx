@@ -39,7 +39,7 @@ const What_doing = () => {
         { 
             sno: 6, 
             title: "Open Source Contribution", 
-            desc: "Actively contributing to open-source projects and improving my skills by making real-world code contributions, collaborating with developers, and exploring new technologies.", 
+            desc: "Actively contributing to open-source projects and improving my skills by making real-world code contributions.", 
             icn: <FaGithub /> 
         }
     ];
