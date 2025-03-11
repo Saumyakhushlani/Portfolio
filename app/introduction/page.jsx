@@ -14,7 +14,11 @@ import Navbar from '../My Components/Navbar/Navbar'
 
 
 
+
 const page = () => {
+
+  
+
   return (
   <ClickSpark
     sparkColor='aqua'
@@ -26,13 +30,14 @@ const page = () => {
     <div className='bg-[#101010] h-max py-7 overflow-x-hidden'>
       <Navbar/>
       <div id="home"><Intro /></div>
-      {/* <Rtext /> */}
+       {/* <Rtext /> */}
       <What/>
       <div id="project"><Projects/></div>
       <Skills/>
       <Slider/>
       <Milestone/>
       <div id='contact'><Contact /></div>
+      
       <Footer />
 
     </div>

@@ -29,7 +29,7 @@ const Slider = () => {
               alt={tech.name}
               className="h-9 w-auto object-contain transition-transform group-hover:scale-110 opacity-80"
               width={30}
-              height={30}
+              height={35}
               loading="lazy"
             />
             <span className="text-xl font-medium text-[var(--white-icon)]">{tech.name}</span>

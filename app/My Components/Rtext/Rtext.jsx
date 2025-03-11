@@ -1,15 +1,24 @@
-"use client"
-import React from 'react'
-import RotatingText from '../RotatingText/RotatingText'
+"use client";
+import React from "react";
+import RotatingText from "../RotatingText/RotatingText";
 
 const Rtext = () => {
   return (
-    <div className='flex text-4xl font-semibold items-center justify-center gap-2 md:py-[8vh] md:flex '>
-        Creative
+    <div className="flex text-4xl font-semibold items-center justify-center gap-2 md:py-[8vh] md:flex overflow-hidden">
+      Creative
       <RotatingText
-        texts={['Thinker!', 'Coder!', 'Student!', 'Designer!','Mind!','Innovator!','Techie!','Developer!']}
+        texts={[
+          "Thinker!",
+          "Coder!",
+          "Student!",
+          "Designer!",
+          "Mind!",
+          "Innovator!",
+          "Techie!",
+          "Developer!",
+        ]}
         mainClassName="px-2 sm:px-2 md:px-3 bg-cyan-300 text-black w-max overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
-        staggerFrom={"last"}
+        staggerFrom="last"
         initial={{ y: "100%" }}
         animate={{ y: 0 }}
         exit={{ y: "-120%" }}
@@ -18,8 +27,8 @@ const Rtext = () => {
         transition={{ type: "spring", damping: 30, stiffness: 400 }}
         rotationInterval={2000}
       />
-      </div>
-  )
-}
+    </div>
+  );
+};
 
-export default Rtext
+export default Rtext;
