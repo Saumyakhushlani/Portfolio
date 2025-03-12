@@ -17,6 +17,7 @@ const Skills = () => {
                             <img src="/c++.png" alt="Image 1" className="w-[60%] h-full object-contain object-left rounded-lg" />,
                             <img src="/react.jpg" alt="Image 2" className="w-[110%] h-full object-contain object-right rounded-lg" />,
                             <img src="/nextjs.png" alt="Image 3" className="w-[100%] h-full object-contain object-center rounded-lg" />,
+                            // <img src="/js.png" alt="Image 3" className="w-[100%] h-full object-contain object-center rounded-lg" />,
                         ]}
                     />
                 </div>
