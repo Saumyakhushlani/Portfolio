@@ -10,7 +10,7 @@ const Slider = () => {
         { name: "CSS", src: "/css2.png" },
         { name: "JavaScript", src: "/js.png" },
         { name: "Git", src: "/git.png" },
-        { name: "PostgreSQL", src: "/post.png" },
+        { name: "PostgresSQL", src: "/post.png" },
         { name: "C++", src: "/c++.png" },
         
       ];
