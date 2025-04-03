@@ -3,7 +3,7 @@ import './Slider.css'
 
 const Slider = () => {
     const techStack = [
-        { name: "Next.JS", src: "/nextjs.svg" },
+        { name: "NextJS", src: "/nextjs.svg" },
         { name: "React", src: "/react.png" },
         { name: "TailwindCSS", src: "/tailwind-css.svg" },
         { name: "HTML", src: "/html.webp" },
@@ -12,6 +12,8 @@ const Slider = () => {
         { name: "Git", src: "/git.png" },
         { name: "PostgresSQL", src: "/post.png" },
         { name: "C++", src: "/c++.png" },
+        { name: "MongoDB", src: "/mongodb.svg" },
+        { name: "ExpressJS", src: "/express.svg" },
         
       ];
   return (
