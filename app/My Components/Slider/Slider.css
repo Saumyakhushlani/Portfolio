@@ -16,4 +16,6 @@
   .scroll-container:hover {
     animation-play-state: paused;
   }
-  
+  .white-logo {
+    filter: brightness(0) invert(1) sepia(100%) hue-rotate(190deg) saturate(300%);
+  }
