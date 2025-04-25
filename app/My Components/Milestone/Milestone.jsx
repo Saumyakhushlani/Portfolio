@@ -22,6 +22,7 @@ const Milestone = () => {
                 />
                 <div className='text-xl font-medium'>Commits on GitHub!</div>
             </div>
+            
             <div className='text-center'>
                 <CountUp
                     from={0}
