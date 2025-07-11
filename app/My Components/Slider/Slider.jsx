@@ -14,6 +14,8 @@ const Slider = () => {
     { name: "C++", src: "/c++.png" },
     { name: "MongoDB", src: "/mongodb.svg" },
     { name: "ExpressJS", src: "/express.svg" },
+    {name:"Python",src:"/python.png"},
+    
   ];
 
   return (
@@ -24,7 +26,7 @@ const Slider = () => {
 
       {/* Scrolling Tech Stack */}
       <div className="flex scroll-container gap-12 md:gap-20 w-max">
-        {[...techStack, ...techStack].map((tech, index) => (
+        {[...techStack, ...techStack,...techStack,...techStack].map((tech, index) => (
           <div key={index} className="flex items-center gap-2 group transition-all duration-300 py-2">
             <img
               src={tech.src}

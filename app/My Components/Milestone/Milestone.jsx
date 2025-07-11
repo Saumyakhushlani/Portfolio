@@ -14,7 +14,7 @@ const Milestone = () => {
             <div className='text-center'>
                 <CountUp
                     from={0}
-                    to={230}
+                    to={650}
                     separator=","
                     direction="up"
                     duration={1}
@@ -26,7 +26,7 @@ const Milestone = () => {
             <div className='text-center'>
                 <CountUp
                     from={0}
-                    to={20}
+                    to={30}
                     separator=","
                     direction="up"
                     duration={1}
